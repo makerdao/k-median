@@ -10,7 +10,7 @@
   },
   "implementations": {
     "Median": {
-      "solc_output": "median/out/median.sol.json"
+      "src": "src/median.sol"
     }
   },
   "dapp_root": "median"
