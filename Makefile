@@ -6,9 +6,9 @@ specs: dapp
 dapp:
 	git submodule sync --recursive
 	git submodule update --init --recursive
-	cd k-median && dapp build
+	cd median && dapp build
 
 .PHONY: clean
 clean:
-	cd k-median && dapp clean
+	cd median && dapp clean
 	rm -rf out/
